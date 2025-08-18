@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# ◻︎◯✕
 
 from sys import exit
 from time import sleep as sleep
