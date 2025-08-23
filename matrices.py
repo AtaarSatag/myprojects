@@ -1,5 +1,4 @@
 class Matrix():
-    
     class DataFormatError(Exception):
         pass
 
@@ -108,19 +107,19 @@ class Matrix():
         else:
             raise self.DataFormatError('Your matrices have different shapes.')
 
-
-#data_1 = [[2, 16, 0], [-4, 24, 3]]
-#data_2 = [[2, 16], [3, 24], [13, 4]]
-#data_3 = [[4, 20, 5], [-7, 11, 2]]
-#num = 10
-#
-#mat_1 = Matrix(data_1)
-#mat_2 = Matrix(data_2)
-#mat_3 = Matrix(data_3)
-#
-#(mat_1 * mat_2).show()
-#(mat_1 * 10).show()
-#(mat_1 + mat_3).show()
-#(mat_1 - mat_3).show()
-#(mat_1 / 3).show()
-#mat_1.transpose().show()
+# Examples.
+# data_1 = [[2, 16, 0], [-4, 24, 3]]
+# data_2 = [[2, 16], [3, 24], [13, 4]]
+# data_3 = [[4, 20, 5], [-7, 11, 2]]
+# num = 10
+# 
+# mat_1 = Matrix(data_1)
+# mat_2 = Matrix(data_2)
+# mat_3 = Matrix(data_3)
+# 
+# (mat_1 * mat_2).show()
+# (mat_1 * 10).show()
+# (mat_1 + mat_3).show()
+# (mat_1 - mat_3).show()
+# (mat_1 / 3).show()
+# mat_1.transpose().show()
