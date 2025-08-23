@@ -1,4 +1,8 @@
-class Matrix():
+# -*- coding: utf-8 -*-
+
+# Class Matrix doesn't support vector operations.
+
+class Matrix:
     class DataFormatError(Exception):
         pass
 
